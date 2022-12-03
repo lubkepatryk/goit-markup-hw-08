@@ -1,0 +1,1 @@
+.link__icon{stroke:var(--secondary-font-color);fill:var(--secondary-font-color);margin-right:10px}.link svg{transition:stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1)}.link:hover svg,.link:focus svg{stroke:var(--brand-color);fill:var(--brand-color)}

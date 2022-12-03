@@ -1,0 +1,23 @@
+.logo {
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  margin-right: 93px;
+  padding-block: 25px;
+}
+
+.logo1 {
+  color: var(--brand-color);
+  line-height: 1.19;
+}
+
+.logo2.link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.logo.link,
+.logo2.link {
+  font-family: "Raleway", "Roboto", sans-serif;
+}
