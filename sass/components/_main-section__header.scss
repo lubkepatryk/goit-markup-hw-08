@@ -1,11 +1,20 @@
 .main-section__header {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  padding-top: 200px;
+  padding-top: 118px;
   margin-bottom: 30px;
-  max-width: 696px;
+  max-width: 365px;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-section__header {
+    font-size: 44px;
+    line-height: 1.36;
+    padding-top: 200px;
+    max-width: 696px;
+  }
 }

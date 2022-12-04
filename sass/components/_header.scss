@@ -33,8 +33,21 @@
   }
   .header.container .list.block .link {
     color: var(--secondary-font-color);
+    &:hover,
+    &:focus {
+      color: var(--brand-color);
+    }
   }
   .header.container .list.block .link:first-of-type {
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header.container .list.block {
+    display: flex;
+  }
+  .header.container .list.block .link:first-of-type {
+    margin-bottom: 0;
   }
 }
