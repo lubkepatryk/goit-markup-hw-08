@@ -25,9 +25,15 @@
           <a href="./index.html" class="logo link"
             ><span class="logo1">Web</span>Studio</a
           >
-          <svg class="header__menu" width="40" height="40">
-            <use href="./images/icons.svg#icon-menu_40px"></use>
-          </svg>
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="header__menu" width="40" height="40">
+              <use href="./images/icons.svg#icon-menu_40px"></use>
+            </svg>
+          </button>
           <ul class="list">
             <li>
               <a href="./" class="link highlight">Agencja</a>
@@ -217,7 +223,8 @@
           </li>
         </ul>
       </div>
-      <!-- <section class="container section">
+
+      <section class="container section">
         <h2 class="second-header">Czym się zajmujemy</h2>
         <ul class="list">
           <li class="thumb">
@@ -406,6 +413,42 @@
         </div>
       </section>
     </main>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="header__menu" width="40" height="40">
+          <use href="./images/icons.svg#icon-close_40px"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="./" class="mobile-menu__link">Agencja</a></li>
+        <li><a href="./" class="mobile-menu__link">Portfolio</a></li>
+        <li><a href="./" class="mobile-menu__link">Kontakt</a></li>
+      </ul>
+      <div>
+        <ul class="mobile-contact list">
+          <li>
+            <a href="tel:+48111111111" class="mobile-contact__link-phone"
+              >+48 111 111 111</a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:info@devstudio.com"
+              class="mobile-contact__link-mail"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="mobile-social list">
+          <li><a href="./" class="mobile-social__link">Instagram</a></li>
+          <li><a href="./" class="mobile-social__link">Twitter</a></li>
+          <li><a href="./" class="mobile-social__link">Facebook</a></li>
+          <li><a href="./" class="mobile-social__link last">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
     <footer class="footer">
       <div class="container footer__container">
         <div>
@@ -472,7 +515,15 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
+
     <script src="./JS/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./JS/mobile-menu.js"></script>
   </body>
 </html>
