@@ -1,0 +1,22 @@
+.what-we-do {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .what-we-do {
+    display: contents;
+    min-width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .what-we-do .list {
+    display: flex;
+    justify-content: center;
+  }
+}
